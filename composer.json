@@ -1,0 +1,12 @@
+{
+  "name" : "ntapiara/328/pets2",
+  "authors": [
+    {
+      "name" : "Nathan Tapia-Ramirez",
+      "email" : "tapia-ramirez.nathan@student.greenriver.edu"
+    }
+  ],
+  "require" : {
+    "bcosca/fatfree-core" : "dev-master"
+  }
+}
