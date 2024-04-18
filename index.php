@@ -18,4 +18,11 @@ $F3->route('GET /', function(){
     echo $view->render('views/home.html');
 });
 
+// order route
+$F3->route('GET|POST /order', function($F3){
+
+    $view = new Template();
+    echo $view->render('views/pet-order.html');
+});
+
 $F3->run();
